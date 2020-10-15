@@ -18,4 +18,4 @@ jobs:
     - name: Install dependencies
       run: yarn && yarn build
     - name: log hej
-      run: echo "hej"
+      run: npx surge dist hejhejehejje.surge.sh
