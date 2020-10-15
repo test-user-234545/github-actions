@@ -1,9 +1,6 @@
 name: PR test
 
-on:
-  pull_request_target:
-    paths:
-    - '**.md'
+on: pull_request_target
 
 jobs:
   link-check:
@@ -21,4 +18,4 @@ jobs:
     - name: Install dependencies
       run: yarn && yarn build
     - name: log hej
-      run: echo "hej"
+      run: npx surge dist hej-hej-hej.surge.sh
