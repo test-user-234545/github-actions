@@ -5,6 +5,6 @@
   "repository": "git@github.com:OskarDamkjaer/github-actions.git",
   "author": "Oskar Damkjaer <oskar.damkjaer@gmail.com>",
   "scripts": {
-      "build": "echo build"
+    "build": "echo build"
   }
 }

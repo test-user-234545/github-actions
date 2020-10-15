@@ -1,9 +1,6 @@
 name: PR test
 
-on:
-  pull_request_target:
-    paths:
-    - '**.md'
+on: pull_request_target
 
 jobs:
   link-check:
