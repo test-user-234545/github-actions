@@ -29,4 +29,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         header: Deployed to surge
         message: | 
-          deployed to http://${{github.event.pull_request.head.ref}}-neo4j-browser.surge.sh
+          Preview deployed to http://${{github.event.pull_request.head.ref}}-neo4j-browser.surge.sh
